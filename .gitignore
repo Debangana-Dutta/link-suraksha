@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated audio (voice alerts are written to a temp dir, but ignore
+# any that end up in the project folder during local testing)
+*.mp3
+
+# Editors
+.vscode/
+.idea/

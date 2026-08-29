@@ -1,0 +1,119 @@
+url,label,category,reason
+https://www.india.gov.in,SAFE,government,Official Indian government portal
+https://www.odisha.gov.in,SAFE,government,Official Odisha state government website
+https://www.incometax.gov.in,SAFE,government,Official Income Tax Department website
+https://www.uidai.gov.in,SAFE,government,Official Aadhaar authority (UIDAI) website
+https://www.mygov.in,SAFE,government,Official citizen engagement platform of the Government of India
+https://www.epfindia.gov.in,SAFE,government,Official EPFO (retirement fund) website
+https://www.passportindia.gov.in,SAFE,government,Official Passport Seva website
+https://www.digilocker.gov.in,SAFE,government,Official DigiLocker document wallet website
+https://www.indiapost.gov.in,SAFE,government,Official India Post website
+https://www.iitb.ac.in,SAFE,education,Official IIT Bombay website
+https://www.ugc.ac.in,SAFE,education,Official UGC (University Grants Commission) website
+https://www.nios.ac.in,SAFE,education,Official NIOS (National Institute of Open Schooling) website
+https://www.aicte-india.org,SAFE,education,Official AICTE website
+https://swayam.gov.in,SAFE,education,Official government MOOC platform
+https://www.coursera.org,SAFE,education,Well-known legitimate online course platform
+https://www.nptel.ac.in,SAFE,education,Official NPTEL online course platform
+https://www.sbi.co.in,SAFE,banking,Official State Bank of India website
+https://www.hdfcbank.com,SAFE,banking,Official HDFC Bank website
+https://www.icicibank.com,SAFE,banking,Official ICICI Bank website
+https://www.rbi.org.in,SAFE,banking,Official Reserve Bank of India website
+https://www.axisbank.com,SAFE,banking,Official Axis Bank website
+https://www.pnbindia.in,SAFE,banking,Official Punjab National Bank website
+https://www.npci.org.in,SAFE,banking,Official NPCI (UPI infrastructure) website
+https://www.nseindia.com,SAFE,banking,Official National Stock Exchange website
+https://www.bseindia.com,SAFE,banking,Official Bombay Stock Exchange website
+https://www.zerodha.com,SAFE,banking,Well-known legitimate stockbroking platform
+https://www.paytm.com,SAFE,banking,Official Paytm digital payments website
+https://www.amazon.in,SAFE,ecommerce,Official Amazon India website
+https://www.flipkart.com,SAFE,ecommerce,Official Flipkart website
+https://www.myntra.com,SAFE,ecommerce,Official Myntra website
+https://www.meesho.com,SAFE,ecommerce,Official Meesho website
+https://www.ajio.com,SAFE,ecommerce,Official AJIO website
+https://www.snapdeal.com,SAFE,ecommerce,Official Snapdeal website
+https://www.amazon.in/s?k=laptop&ref=nb_sb_noss,SAFE,ecommerce,Legitimate Amazon search-results URL with normal query parameters
+https://www.flipkart.com/search?q=mobile,SAFE,ecommerce,Legitimate Flipkart search-results URL with normal query parameters
+https://www.thehindu.com,SAFE,news,Official The Hindu news website
+https://www.ndtv.com,SAFE,news,Official NDTV news website
+https://www.indianexpress.com,SAFE,news,Official Indian Express news website
+https://www.pib.gov.in,SAFE,news,Official Press Information Bureau website
+https://www.bbc.com/news,SAFE,news,Official BBC News website
+https://www.who.int,SAFE,news,Official World Health Organization website
+https://www.un.org,SAFE,news,Official United Nations website
+https://www.wikipedia.org,SAFE,general,Well-known reference website
+https://en.wikipedia.org/wiki/Phishing,SAFE,general,Legitimate Wikipedia article URL with a normal descriptive path
+https://www.google.com,SAFE,general,Well-known search engine homepage
+https://mail.google.com,SAFE,general,Legitimate Gmail subdomain of a well-known provider
+https://accounts.google.com/signin,SAFE,general,Legitimate Google account sign-in subdomain
+https://docs.google.com/document/d/example123,SAFE,general,Legitimate long-form Google Docs style URL
+https://www.microsoft.com,SAFE,general,Official Microsoft website
+https://www.linkedin.com,SAFE,general,Well-known professional networking website
+https://github.com,SAFE,general,Well-known code hosting platform
+https://www.irctc.co.in,SAFE,general,Official Indian Railways ticketing website
+https://www.airtel.in,SAFE,general,Official Airtel telecom website
+https://www.jio.com,SAFE,general,Official Jio telecom website
+http://info.cern.ch,SAFE,http_legacy,Historic website still served over plain HTTP; legitimate low-risk example
+http://www.odisha.gov.in/oldportal,SAFE,http_legacy,"Synthetic older-style HTTP path on a legitimate government domain, shown for demonstration"
+http://example.edu/library,SAFE,http_legacy,Synthetic HTTP educational example representing legacy sites that still use HTTP
+https://secure-login-update.example-fraud.test/account/verify,FRAUD,suspicious_login,Synthetic phishing-style login page mimicking a forced security update prompt
+https://login-verify-account.example-fraud.test,FRAUD,suspicious_login,Synthetic suspicious login-verification domain
+https://accounts-security-check.example-fraud.test/login,FRAUD,suspicious_login,Synthetic fake account security login page
+https://bank-login-secure.example-fraud.test,FRAUD,suspicious_login,Synthetic fake banking login page pattern
+https://kyc-update-required.example-fraud.test,FRAUD,fake_kyc,Synthetic fake KYC-update message pattern
+https://update-your-kyc-now.example-fraud.test/verify,FRAUD,fake_kyc,Synthetic urgent fake KYC verification link
+https://kyc-pending-suspend.example-fraud.test,FRAUD,fake_kyc,Synthetic fake KYC suspension warning pattern
+https://aadhaar-kyc-verify.example-fraud.test,FRAUD,fake_kyc,Synthetic fake Aadhaar-KYC verification impersonation pattern
+https://refund-pending-claim.example-fraud.test,FRAUD,fake_payment_refund,Synthetic fake refund-claim message pattern
+https://payment-failed-retry.example-fraud.test/pay,FRAUD,fake_payment_refund,Synthetic fake failed-payment retry pattern
+https://tax-refund-claim-now.example-fraud.test,FRAUD,fake_payment_refund,Synthetic fake tax-refund claim pattern
+https://electricity-bill-overdue-pay.example-fraud.test,FRAUD,fake_payment_refund,Synthetic fake overdue-bill payment pattern
+https://you-won-a-prize.example-fraud.test/claim,FRAUD,fake_reward_prize,Synthetic fake lottery/prize claim pattern
+https://free-gift-card-claim.example-fraud.test,FRAUD,fake_reward_prize,Synthetic fake free-gift-card offer pattern
+https://lucky-draw-winner-2026.example-fraud.test,FRAUD,fake_reward_prize,Synthetic fake lucky-draw winner pattern
+https://congratulations-you-are-selected.example-fraud.test,FRAUD,fake_reward_prize,Synthetic fake congratulatory reward pattern
+https://verify-your-identity-now.example-fraud.test,FRAUD,suspicious_verification,Synthetic urgent identity-verification pattern
+https://otp-verification-required.example-fraud.test,FRAUD,suspicious_verification,Synthetic fake OTP-verification prompt pattern (no real OTP included)
+https://account-verification-pending.example-fraud.test,FRAUD,suspicious_verification,Synthetic fake account-verification pattern
+https://secure.login.account.verify.update.example-fraud.test,FRAUD,excessive_subdomains,Synthetic example with an unusually deep subdomain chain used to obscure the real domain
+https://www.mybank.security.alert.confirm.example-fraud.test,FRAUD,excessive_subdomains,Synthetic multi-level subdomain pattern mimicking a bank alert
+https://id.verify.support.help.center.example-fraud.test,FRAUD,excessive_subdomains,Synthetic deeply nested subdomain structure
+https://example-fraud.test/secure/account/verification/update/confirm/step1/step2/step3/final-action-required-immediately,FRAUD,suspicious_length,Synthetic unusually long URL path used to obscure intent
+https://example-fraud.test/login?ref=abcdefghijklmnopqrstuvwxyz1234567890&session=xyzxyzxyzxyzxyzxyzxyz,FRAUD,suspicious_length,Synthetic very long URL with an excessive query string
+https://verify-now.example-fraud.test/account/update/security/confirmation/required/urgent/action,FRAUD,suspicious_length,Synthetic long path structure resembling obfuscation
+https://urgent-account-suspended.example-fraud.test,FRAUD,suspicious_keywords,Synthetic example using the urgency keyword 'suspended'
+https://immediate-action-required-account.example-fraud.test,FRAUD,suspicious_keywords,Synthetic example using the urgency phrase 'immediate action required'
+https://your-account-will-be-locked.example-fraud.test,FRAUD,suspicious_keywords,Synthetic example using the threat keyword 'locked'
+https://secure-account-login-verify-update-now.example-fraud.test,FRAUD,excessive_hyphens,Synthetic domain with an unusually high number of hyphens
+https://my-bank-account-security-alert-confirm.example-fraud.test,FRAUD,excessive_hyphens,Synthetic hyphen-heavy domain mimicking a bank alert
+https://free-prize-claim-now-limited-offer.example-fraud.test,FRAUD,excessive_hyphens,Synthetic hyphen-heavy domain used for a fake offer
+https://secure-bank-login.tk,FRAUD,suspicious_tld,Synthetic example using a free/high-abuse top-level domain
+https://account-verify-update.xyz,FRAUD,suspicious_tld,Synthetic example using a commonly abused low-cost TLD
+https://kyc-update-now.top,FRAUD,suspicious_tld,Synthetic example using a TLD frequently associated with abuse
+https://bit.ly/3fake-example1,FRAUD,url_shortener,Synthetic shortened-link example representing hidden-destination risk
+https://tinyurl.com/fake-example2,FRAUD,url_shortener,Synthetic shortened link hiding an unknown destination
+https://t.co/fakeexample3,FRAUD,url_shortener,Synthetic shortened-link pattern used to mask the destination
+http://192.168.1.100/login/verify,FRAUD,ip_address_url,Synthetic example using a private-range IP address instead of a domain name
+http://10.0.0.55/account/update,FRAUD,ip_address_url,Synthetic example using a private-range IP address as the host
+http://203.0.113.25/secure/kyc,FRAUD,ip_address_url,Synthetic example using a documentation-range (TEST-NET-3) IP address as the host
+https://www.sbi.co.in@example-fraud.test/login,FRAUD,at_symbol,Synthetic example using the @ symbol to disguise the real destination host
+https://accounts.google.com@example-fraud.test/verify,FRAUD,at_symbol,Synthetic example impersonating Google using the @ symbol trick
+https://www.amazon.in@example-fraud.test/order-update,FRAUD,at_symbol,Synthetic example impersonating Amazon using the @ symbol trick
+https://example-fraud.test/%6c%6f%67%69%6e/verify,FRAUD,encoded_obfuscated,Synthetic example using percent-encoded characters to obscure the path
+https://example-fraud.test/login?redirect=%68%74%74%70%73%3a%2f%2f%66%61%6b%65%2e%74%65%73%74,FRAUD,encoded_obfuscated,Synthetic example with a percent-encoded redirect parameter
+https://example-fraud.test/verify%2Faccount%2Fupdate,FRAUD,encoded_obfuscated,Synthetic example using encoded path separators to obscure structure
+https://sbi-online-secure.example-fraud.test,FRAUD,brand_impersonation,Synthetic domain impersonating SBI branding without using the real domain
+https://paytm-kyc-update.example-fraud.test,FRAUD,brand_impersonation,Synthetic domain impersonating Paytm branding
+https://amaz0n-order-update.example-fraud.test,FRAUD,brand_impersonation,Synthetic domain using character substitution (0 for o) to impersonate Amazon
+https://hdfcbank-secure-verify.example-fraud.test,FRAUD,brand_impersonation,Synthetic domain impersonating HDFC Bank branding
+https://example-fraud.test/login?user=admin&pass=&redirect=fake-bank.test,FRAUD,suspicious_query_params,Synthetic example with suspicious credential-style query parameter names (no real values included)
+https://example-fraud.test/verify?token=abc123&action=reset&bank=sbi,FRAUD,suspicious_query_params,Synthetic example with suspicious token/reset action parameters
+https://example-fraud.test/account?redirect_url=http://another-fake.test/login,FRAUD,suspicious_query_params,Synthetic example with an open-redirect style query parameter
+http://secure-account-update.example-fraud.test/login,FRAUD,http_risk_signal,Synthetic example combining plain HTTP with a suspicious hyphenated domain and login keyword
+http://192.0.2.10/bank/login,FRAUD,http_risk_signal,Synthetic example combining HTTP with a documentation-range IP-address host
+https://xn--pple-43d.com/verify,FRAUD,punycode_idn,Synthetic punycode example representing a homograph-style pattern impersonating a well-known brand
+https://xn--80ak6aa92e.com/login,FRAUD,punycode_idn,Synthetic punycode/IDN example representing a homograph-style suspicious domain
+http://secure-sbi-kyc-update-verify.tk/login?user=admin&redirect=fake.test,FRAUD,combined_multiple_indicators,"Synthetic example combining HTTP, brand impersonation, excessive hyphens, a suspicious TLD, and suspicious query parameters"
+http://192.168.10.5/paytm-kyc-verify-account-update-now,FRAUD,combined_multiple_indicators,Synthetic example combining an IP-address host with brand impersonation and excessive hyphens
+https://accounts.google.com@secure-login-verify-update.xyz/confirm,FRAUD,combined_multiple_indicators,"Synthetic example combining the @ symbol trick, excessive hyphens, and a suspicious TLD"
+https://amaz0n-order-refund-claim-verify.top/login?token=xyz&redirect=fake.test,FRAUD,combined_multiple_indicators,"Synthetic example combining brand impersonation, excessive hyphens, a suspicious TLD, and suspicious query parameters"

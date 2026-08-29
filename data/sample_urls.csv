@@ -1,0 +1,36 @@
+url,label,category,reason
+https://www.india.gov.in,SAFE,government,Official Indian government portal
+https://www.uidai.gov.in,SAFE,government,Official Aadhaar authority (UIDAI) website
+https://www.digilocker.gov.in,SAFE,government,Official DigiLocker document wallet website
+https://www.iitb.ac.in,SAFE,education,Official IIT Bombay website
+https://www.coursera.org,SAFE,education,Well-known legitimate online course platform
+https://www.sbi.co.in,SAFE,banking,Official State Bank of India website
+https://www.hdfcbank.com,SAFE,banking,Official HDFC Bank website
+https://www.rbi.org.in,SAFE,banking,Official Reserve Bank of India website
+https://www.paytm.com,SAFE,banking,Official Paytm digital payments website
+https://www.amazon.in,SAFE,ecommerce,Official Amazon India website
+https://www.myntra.com,SAFE,ecommerce,Official Myntra website
+https://www.flipkart.com/search?q=mobile,SAFE,ecommerce,Legitimate Flipkart search-results URL with normal query parameters
+https://www.thehindu.com,SAFE,news,Official The Hindu news website
+https://www.ndtv.com,SAFE,news,Official NDTV news website
+https://www.wikipedia.org,SAFE,general,Well-known reference website
+https://mail.google.com,SAFE,general,Legitimate Gmail subdomain of a well-known provider
+https://github.com,SAFE,general,Well-known code hosting platform
+http://info.cern.ch,SAFE,http_legacy,Historic website still served over plain HTTP; legitimate low-risk example
+https://secure-login-update.example-fraud.test/account/verify,FRAUD,suspicious_login,Synthetic phishing-style login page mimicking a forced security update prompt
+https://kyc-update-required.example-fraud.test,FRAUD,fake_kyc,Synthetic fake KYC-update message pattern
+https://refund-pending-claim.example-fraud.test,FRAUD,fake_payment_refund,Synthetic fake refund-claim message pattern
+https://you-won-a-prize.example-fraud.test/claim,FRAUD,fake_reward_prize,Synthetic fake lottery/prize claim pattern
+https://verify-your-identity-now.example-fraud.test,FRAUD,suspicious_verification,Synthetic urgent identity-verification pattern
+https://secure.login.account.verify.update.example-fraud.test,FRAUD,excessive_subdomains,Synthetic example with an unusually deep subdomain chain used to obscure the real domain
+https://example-fraud.test/secure/account/verification/update/confirm/step1/step2/step3/final-action-required-immediately,FRAUD,suspicious_length,Synthetic unusually long URL path used to obscure intent
+https://urgent-account-suspended.example-fraud.test,FRAUD,suspicious_keywords,Synthetic example using the urgency keyword 'suspended'
+https://secure-account-login-verify-update-now.example-fraud.test,FRAUD,excessive_hyphens,Synthetic domain with an unusually high number of hyphens
+https://secure-bank-login.tk,FRAUD,suspicious_tld,Synthetic example using a free/high-abuse top-level domain
+https://bit.ly/3fake-example1,FRAUD,url_shortener,Synthetic shortened-link example representing hidden-destination risk
+http://192.168.1.100/login/verify,FRAUD,ip_address_url,Synthetic example using a private-range IP address instead of a domain name
+https://www.sbi.co.in@example-fraud.test/login,FRAUD,at_symbol,Synthetic example using the @ symbol to disguise the real destination host
+https://example-fraud.test/%6c%6f%67%69%6e/verify,FRAUD,encoded_obfuscated,Synthetic example using percent-encoded characters to obscure the path
+https://sbi-online-secure.example-fraud.test,FRAUD,brand_impersonation,Synthetic domain impersonating SBI branding without using the real domain
+https://example-fraud.test/login?user=admin&pass=&redirect=fake-bank.test,FRAUD,suspicious_query_params,Synthetic example with suspicious credential-style query parameter names (no real values included)
+http://secure-sbi-kyc-update-verify.tk/login?user=admin&redirect=fake.test,FRAUD,combined_multiple_indicators,"Synthetic example combining HTTP, brand impersonation, excessive hyphens, a suspicious TLD, and suspicious query parameters"
