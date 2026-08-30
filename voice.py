@@ -1,11 +1,5 @@
-"""
+﻿"""
 voice.py — Reliable voice alert for Link Suraksha.
-
-Primary voice engine:
-- gTTS English audio fallback
-
-Odia text remains displayed on screen because gTTS does not
-provide verified Odia language support.
 """
 
 import os
@@ -25,19 +19,14 @@ class VoiceResult:
 
 
 def generate_odia_voice_alert(odia_text: str) -> VoiceResult:
-    """
-    Generate a voice alert.
-
-    The Odia warning is shown on screen, while the spoken alert
-    uses English because gTTS does not provide verified Odia support.
-    """
+    """Generate an English spoken warning while displaying Odia on screen."""
 
     if not odia_text or not odia_text.strip():
         return VoiceResult(
             False,
             None,
             "none",
-            "No text was provided for the voice alert."
+            "No text was provided for the voice alert.",
         )
 
     fallback_text = (
@@ -50,12 +39,12 @@ def generate_odia_voice_alert(odia_text: str) -> VoiceResult:
 
         output_path = os.path.join(
             tempfile.gettempdir(),
-            "link_suraksha_voice_alert.mp3"
+            "link_suraksha_voice_alert.mp3",
         )
 
         tts = gTTS(
             text=fallback_text,
-            lang="en"
+            lang="en",
         )
 
         tts.save(output_path)
@@ -66,20 +55,20 @@ def generate_odia_voice_alert(odia_text: str) -> VoiceResult:
                 output_path,
                 "gTTS-fallback",
                 "Voice alert generated in English. "
-                "The Odia warning is displayed on screen."
+                "The complete Odia warning is displayed on screen.",
             )
+
+        return VoiceResult(
+            False,
+            None,
+            "none",
+            "Voice alert could not be generated.",
+        )
 
     except Exception as e:
         return VoiceResult(
             False,
             None,
             "none",
-            f"Voice generation failed: {e}"
+            f"Voice generation failed: {e}",
         )
-
-    return VoiceResult(
-        False,
-        None,
-        "none",
-        "Voice alert could not be generated."
-    )
